@@ -1,0 +1,229 @@
+#header{
+    background-image: url('bg.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    
+}
+.style-nav{
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 40px;
+    font-weight: 800;
+    font-size: 17px;
+}
+.nav-style{
+    background-color: #1c1c1c61;
+    z-index: 9999;
+}
+#header .over-lay{
+    background-color: rgba(0, 0, 0, 0.629);
+}
+.nav-item{
+    padding-inline: 15px;
+    padding-top: 20px;
+}
+
+.home-item span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+.nav-pad{
+    padding-right: 40px;
+}
+.section-subtitle {
+    max-width: 800px;
+}
+.face-icon{
+    font-size: 15px !important;
+    padding: 13px !important    ;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+.home-item h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+
+
+}
+#about h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+#about p span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+#about .about-style{
+    width: 93% !important;
+}
+#about .about-style img{
+    padding-left: 20px;
+    padding-bottom: 20px;
+} 
+.but-ho ,.but-ho2{
+    transition: all 0.7s;
+}
+.but-ho:hover{
+    background-color: white;
+    color: black   ;
+
+}
+.but-ho2:hover{
+    background-color: #1c1c1c;
+    color: white;
+}
+#services h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+.icon{
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #f4f4f4;
+    border-radius: 50%; 
+    transition: all 0.5s;
+    
+
+}
+.icon:hover{
+    background-color: black;
+    color: white;
+}
+.ser-style:hover .icon{
+    background-color: black;
+    color: white;
+}
+#portfolio div h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+
+}
+.img-work .img-layer{
+    background-color: white;
+    opacity: 0;
+    transition: all 1.2s;
+}
+.img-work .img-layer:hover{
+    opacity: 1;
+    border: 6px solid gray;
+}
+.work-style{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 580;
+}
+#portfolio ul{
+    padding-bottom: 30px;
+}
+#Testimonials h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 580;
+
+}
+.carousel-indicators{
+    position: absolute;
+    bottom: -120px;
+}
+
+.carousel-indicators button{
+    border-radius: 50% !important;
+    width: 10px !important;
+
+    margin-inline: 7px !important;
+    
+    height: 10px !important;
+
+}
+.font-size{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 580;
+    
+}
+#team h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 580;
+}
+
+#team h3{
+    font-size: 20px;
+}
+#team .img-layer{
+    width: 90%;
+    margin-left: 20px !important;
+    margin-top: 10px !important;
+    background-color: white;
+    opacity: 0;
+    transition: all 0.5s;
+    transform: rotateY(180deg) scale(0.5, 0.5)
+}
+.member .style-icon{
+    overflow: hidden;
+}
+#team .style-icon:hover .img-layer{
+    opacity: 1;
+    transform: rotatey(360deg)
+}
+#team img{
+    overflow: hidden;
+    transition: all 1s;
+}
+#team .style-icon:hover img{
+    transform: scale(1.2);
+}
+.card-style {
+    background-color: #3c3c3c;
+}
+
+#team .member:hover .img-layer{
+    opacity: 1;
+    transform: rotatey(360deg)
+}
+#contact h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 580;
+}
+.contact-details i{
+    border-radius: 50% ;
+    background-color: rgba(210, 207, 207, 0.519);
+    color: rgb(47, 47, 47);
+    transition: all 0.8s;
+}
+.contact-details:hover i{
+    color: white;
+    background-color: black;
+    
+}
+.input-details{
+    width: 45%;
+    height: 35px;
+    border: none;
+    background-color: rgba(226, 226, 226, 0.584);
+    margin-left: 37px;
+    margin-top: 50px;
+}
+.input-text{
+    border: none;
+    background-color: rgba(226, 226, 226, 0.584);
+    
+    display: block;
+} 
+.button-details{
+    margin-left: 135px;
+    padding-inline: 30px;
+}
+.foot{
+    height: 80px;
+    color: #666464;
+}
